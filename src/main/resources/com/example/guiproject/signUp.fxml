@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.guiproject.signUpCtr">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #26a69a;">
+         <children>
+            <Label fx:id="message" layoutX="193.0" layoutY="340.0" prefHeight="34.0" prefWidth="315.0" style="-fx-background-color: #ffe0b2; -fx-background-radius: 20;">
+               <font>
+                  <Font name="Constantia" size="15.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="36.0" layoutY="34.0" prefHeight="53.0" prefWidth="169.0" style="-fx-background-color: #b2dfdb; -fx-background-radius: 30;" text="SignUp Panel : ">
+               <font>
+                  <Font name="Comic Sans MS" size="23.0" />
+               </font>
+            </Label>
+            <Label layoutX="36.0" layoutY="145.0" text="AccountID :">
+               <font>
+                  <Font name="Consolas" size="15.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_CENTER" layoutX="36.0" layoutY="191.0" text="   Roll   :">
+               <font>
+                  <Font name="Consolas" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="36.0" layoutY="238.0" text="    Name  :">
+               <font>
+                  <Font name="Consolas" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="35.0" layoutY="286.0" text=" LastName :">
+               <font>
+                  <Font name="Consolas" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="323.0" layoutY="145.0" text="    Email :">
+               <font>
+                  <Font name="Consolas" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="306.0" layoutY="190.0" text="phoneNumber :">
+               <font>
+                  <Font name="Consolas" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="329.0" layoutY="238.0" text="password :">
+               <font>
+                  <Font name="Consolas" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="344.0" layoutY="286.0" text="wealth :">
+               <font>
+                  <Font name="Consolas" size="15.0" />
+               </font>
+            </Label>
+            <Button layoutX="102.0" layoutY="344.0" mnemonicParsing="false" onMouseClicked="#submitSignUp" style="-fx-background-color: #ef9a9a;" text="SUBMIT" />
+            <TextField fx:id="accountId" layoutX="131.0" layoutY="141.0" style="-fx-background-color: #fff9c4;" />
+            <TextField fx:id="roll" layoutX="131.0" layoutY="187.0" style="-fx-background-color: #fff9c4;" />
+            <TextField fx:id="name" layoutX="131.0" layoutY="234.0" style="-fx-background-color: #fff9c4;" />
+            <TextField fx:id="lastName" layoutX="131.0" layoutY="282.0" style="-fx-background-color: #fff9c4;" />
+            <TextField fx:id="email" layoutX="420.0" layoutY="141.0" style="-fx-background-color: #fff9c4;" />
+            <TextField fx:id="phoneNumber" layoutX="420.0" layoutY="187.0" style="-fx-background-color: #fff9c4;" />
+            <TextField fx:id="password" layoutX="420.0" layoutY="234.0" style="-fx-background-color: #fff9c4;" />
+            <TextField fx:id="wealth" layoutX="420.0" layoutY="282.0" style="-fx-background-color: #fff9c4;" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
